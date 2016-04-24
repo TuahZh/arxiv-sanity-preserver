@@ -19,6 +19,12 @@
 <!-- JS -->
 <script src="{{ url_for('static', filename='jquery-1.8.3.min.js') }}"></script>
 <script src="{{ url_for('static', filename='d3.min.js') }}"></script>
+
+<!-- CDN provided jsDelivr - http://jsDelivr.net
+		  a big thanks to them for providing this for me! 
+			  <script src="//cdn.jsdelivr.net/jquery.webpage-vim/0.1/vim.min.js"></script>-->
+<script src="{{ url_for('static', filename='vim.min.js') }}"></script>
+
 <script>
 
 // passed in from flask as json
